@@ -10,16 +10,21 @@
 	javah com.lyle.jni.TestNative
 	
 3.用visual studio 2017创建工程jni_native
+![创建工程1](/img/创建工程1.png "创建工程1")
+![向导配置2](/img/向导配置2.png "向导配置2")
 
 4.把步骤2生成的文件复制到步骤三创建的工程下
+![添加头文件3](/img/添加头文件3.png "添加头文件3")
 
 5.把D:\Program Files\Java\jdk1.8.0_111\include\jni.h和D:\Program Files\Java\jdk1.8.0_111\include\win32\jni_md.h拷贝到步骤三创建的工程下
 
 6.把com_lyle_jni_TestNative.h文件中的#include <jni.h>改成#include "jni.h"
 
 7.创建index.cpp
+![visual_studio工程目录](/img/visual_studio工程目录.png "visual_studio工程目录")
 
 8.生成……配置管理器……x64
+![配置管理器4](/img/配置管理器4.png "配置管理器4")
 
 9.ctrl+f7编译……在index.cpp编辑页面右击……运行测试……生成D:\visualstudio_workspace\jni_native\x64\Debug\jni_native.dll文件
 
