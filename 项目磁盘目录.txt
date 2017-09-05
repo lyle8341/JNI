@@ -1,0 +1,38 @@
+D:.
+│  项目磁盘目录.txt
+│  
+└─jni_native
+    │  com_lyle_jni_TestNative.h
+    │  jni.h
+    │  jni_md.h
+    │  jni_native.sln
+    │  
+    ├─jni_native
+    │  │  index.cpp
+    │  │  jni_native.vcxproj
+    │  │  jni_native.vcxproj.filters
+    │  │  
+    │  └─x64
+    │      └─Debug
+    │          │  index.obj
+    │          │  jni_native.log
+    │          │  vc141.idb
+    │          │  vc141.pdb
+    │          │  
+    │          └─jni_native.tlog
+    │                  CL.command.1.tlog
+    │                  CL.read.1.tlog
+    │                  CL.write.1.tlog
+    │                  jni_native.lastbuildstate
+    │                  jni_native.write.1u.tlog
+    │                  link.command.1.tlog
+    │                  link.read.1.tlog
+    │                  link.write.1.tlog
+    │                  
+    └─x64
+        └─Debug
+                jni_native.dll
+                jni_native.exp
+                jni_native.ilk
+                jni_native.lib
+                jni_native.pdb
