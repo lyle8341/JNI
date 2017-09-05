@@ -32,3 +32,6 @@
 10.把D:\visualstudio_workspace\jni_native\x64\Debug路径配置到path中，重启eclipse
 
 11.运行 com.lyle.jni.TestNative
+
+12.项目磁盘目录结构
+![磁盘目录](/项目磁盘目录.txt "磁盘目录")
