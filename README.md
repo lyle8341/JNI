@@ -27,7 +27,7 @@
 8.生成……配置管理器……x64
 ![配置管理器4](/img/配置管理器4.png "配置管理器4")
 
-9.ctrl+f7编译……在index.cpp编辑页面右击……运行测试……生成D:\visualstudio_workspace\jni_native\x64\Debug\jni_native.dll文件
+9.ctrl+F7 编译……在index.cpp编辑页面右击……运行测试(如果没有先调试-开始调试)……生成D:\visualstudio_workspace\jni_native\x64\Debug\jni_native.dll文件
 
 10.把D:\visualstudio_workspace\jni_native\x64\Debug路径配置到path中，重启eclipse
 
@@ -35,3 +35,18 @@
 
 12.项目磁盘目录结构
 ![磁盘目录](/项目磁盘目录.txt "磁盘目录")
+
+13.JNI两个弊端
+	1.使用了JNIjava app将不能跨平台，移植的话需要重新进行编写native代码
+	2.java是强类型语言，而c/c++不是，因此需小心
+	3.总之，构建java程序时候尽量少用本地代码
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
